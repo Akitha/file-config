@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-     "url": "git+https://github.com/Akitha/plugin-chart-hello-world.git"
+     "url": "git+https://github.com/apache/incubator-superset.git"
   },
   "keywords": [
     "big",
