@@ -94,7 +94,7 @@
     "@superset-ui/plugin-chart-table": "^0.14.16",
     "@superset-ui/plugin-chart-word-cloud": "^0.14.9",
     "@superset-ui/preset-chart-xy": "^0.14.9",
-     "@superset-ui/akitha-plugin-chart-hello-world": "git+https://github.com/Akitha/plugin-chart-hello-world.git",
+    "@superset-ui/akitha-plugin-chart-hello-world": "file:plugin-chart-hello-world",
     "@superset-ui/query": "^0.14.15",
     "@superset-ui/style": "^0.14.9",
     "@superset-ui/superset-ui": "^0.14.9",
