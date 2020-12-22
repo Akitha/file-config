@@ -66,6 +66,7 @@ import {
 
 import FilterBoxChartPlugin from '../FilterBox/FilterBoxChartPlugin';
 import TimeTableChartPlugin from '../TimeTable/TimeTableChartPlugin';
+import { HelloWorldChartPlugin } from '@superset-ui/plugin-chart-hello-world';
 
 export default class MainPreset extends Preset {
   constructor() {
@@ -109,6 +110,7 @@ export default class MainPreset extends Preset {
         new TreemapChartPlugin().configure({ key: 'treemap' }),
         new WordCloudChartPlugin().configure({ key: 'word_cloud' }),
         new WorldMapChartPlugin().configure({ key: 'world_map' }),
+        new HelloWorldChartPlugin().configure({key:'hello-world'}),
         new EchartsTimeseriesChartPlugin().configure({
           key: 'echarts_timeseries',
         }),
