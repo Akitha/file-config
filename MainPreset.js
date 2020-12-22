@@ -62,7 +62,8 @@ import {
 
 import FilterBoxChartPlugin from '../FilterBox/FilterBoxChartPlugin';
 import TimeTableChartPlugin from '../TimeTable/TimeTableChartPlugin';
-import {HelloWorldChartPlugin} from '@superset-ui/akitha-plugin-chart-hello-world';
+import {HelloWorldChartPlugin} from '../../../node_modules/@superset-ui/akitha-plugin-chart-hello-world';
+//import {HelloWorldChartPlugin} from '@superset-ui/akitha-plugin-chart-hello-world';
 
 export default class MainPreset extends Preset {
   constructor() {
