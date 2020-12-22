@@ -283,10 +283,6 @@ const config = {
         APP_DIR,
         './node_modules/@superset-ui/chart-controls',
       ),
-      '@superset-ui/akitha-plugin-chart-hello-world': path.resolve(
-        APP_DIR,
-        './node_modules/@superset-ui/akitha-plugin-chart-hello-world',
-      ),
     },
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
     symlinks: false,
