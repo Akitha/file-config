@@ -380,6 +380,7 @@ if (isDevMode) {
       hasSymlink = true;
     }
   }
+  config.resolve.alias[`@superset-ui/akitha-plugin-chart-hello-world`] = `./node_modules/@superset-ui/akitha-plugin-chart-hello-world/src`;
   if (hasSymlink) {
     console.log(''); // pure cosmetic new line
   }
