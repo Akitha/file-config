@@ -90,7 +90,7 @@
     "@superset-ui/legacy-preset-chart-deckgl": "^0.3.2",
     "@superset-ui/legacy-preset-chart-nvd3": "^0.15.18",
     "@superset-ui/plugin-chart-echarts": "^0.15.18",
-    "@superset-ui/plugin-chart-hello-world": "^0.0.0",
+    "@superset-ui/plugin-chart-hello-world": "git+https://github.com/Akitha/plugin-chart-hello-world.git",
     "@superset-ui/plugin-chart-table": "^0.15.18",
     "@superset-ui/plugin-chart-word-cloud": "^0.15.18",
     "@superset-ui/plugin-filter-antd": "^0.15.18",
